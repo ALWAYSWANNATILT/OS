@@ -8,7 +8,7 @@
 
 int main(void) {
 	sem_t *sem1 = sem_open("first", 0);
-	sem_t *sem2 = sem_open("symbol", 0);
+	sem_t *sem2 = sem_open("second", 0);
 	sem_t *sem3 = sem_open("asd",0);
 	sem_t *sem4 = sem_open("qwe",0);
 	sem_t *sem5 = sem_open("zxc",0);
